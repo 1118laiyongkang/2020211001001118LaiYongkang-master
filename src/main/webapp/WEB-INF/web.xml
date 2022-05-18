@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>week2</servlet-name>
+        <servlet-class>com.Laiyongkang.week2.demo.HelloWorldServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LifeCycle_lab1Servlet</servlet-name>
+        <servlet-class>com.lab1.LifeCycle_lab1Servlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MyDearServlet</servlet-name>
+        <servlet-class>com.lab1.MyDearServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>week2</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+</web-app>
